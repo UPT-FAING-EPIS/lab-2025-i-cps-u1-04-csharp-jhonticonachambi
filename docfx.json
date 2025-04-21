@@ -1,0 +1,34 @@
+{
+    "metadata": [
+      {
+        "src": [
+          {
+            "files": ["**/*.cs"],
+            "exclude": ["**/bin/**", "**/obj/**", "**/Tests/**"]
+          }
+        ],
+        "dest": "api"
+      }
+    ],
+    "build": {
+      "content": [
+        {
+          "files": ["api/*.yml", "api/**/*.yml"]
+        },
+        {
+          "files": ["**.md"],
+          "exclude": ["**/bin/**", "**/obj/**", "**/Tests/**"]
+        }
+      ],
+      "resource": [
+        {
+          "files": ["images/**"]
+        }
+      ],
+      "dest": "_site",
+      "globalMetadata": {
+        "_appTitle": "Documentación de Patrones de Comportamiento",
+        "_enableSearch": true
+      }
+    }
+  }

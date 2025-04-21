@@ -1,0 +1,12 @@
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\bin\Debug\net8.0\Observer.Domain.deps.json
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\bin\Debug\net8.0\Observer.Domain.dll
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\bin\Debug\net8.0\Observer.Domain.pdb
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\obj\Debug\net8.0\Observer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\obj\Debug\net8.0\Observer.Domain.AssemblyInfoInputs.cache
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\obj\Debug\net8.0\Observer.Domain.AssemblyInfo.cs
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\obj\Debug\net8.0\Observer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\obj\Debug\net8.0\Observer.Domain.sourcelink.json
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\obj\Debug\net8.0\Observer.Domain.dll
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\obj\Debug\net8.0\refint\Observer.Domain.dll
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\obj\Debug\net8.0\Observer.Domain.pdb
+C:\Users\jhont\OneDrive\Desktop\lab-2025-i-cps-u1-04-csharp-jhonticonachambi\Comportamiento\Observer.Domain\obj\Debug\net8.0\ref\Observer.Domain.dll

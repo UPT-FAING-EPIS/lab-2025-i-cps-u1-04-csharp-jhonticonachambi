@@ -1,0 +1,57 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '8.0.x'
+    
+    - name: Build and Pack
+      run: |
+        dotnet build --configuration Release
+        dotnet pack ./Payment.Domain/Payment.Domain.csproj --configuration Release --output ./artifacts
+        dotnet pack ./ATM.Domain/ATM.Domain.csproj --configuration Release --output ./artifacts
+    
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        body: |
+          Release of Payment and ATM domains
+          Includes NuGet packages for both projects
+        draft: false
+        prerelease: false
+    
+    - name: Upload Release Assets
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./artifacts/Payment.Domain.*.nupkg
+        asset_name: Payment.Domain.nupkg
+        asset_content_type: application/octet-stream
+    
+    - name: Upload Release Assets
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./artifacts/ATM.Domain.*.nupkg
+        asset_name: ATM.Domain.nupkg
+        asset_content_type: application/octet-stream

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Domain", "Observer.Domain\Observer.Domain.csproj", "{F5F39542-0CBC-46C1-98C6-3636BA684581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Domain.Tests", "Observer.Domain.Tests\Observer.Domain.Tests.csproj", "{E2696531-E4F8-4628-9EAF-A2231C7365A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5F39542-0CBC-46C1-98C6-3636BA684581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F39542-0CBC-46C1-98C6-3636BA684581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F39542-0CBC-46C1-98C6-3636BA684581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F39542-0CBC-46C1-98C6-3636BA684581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2696531-E4F8-4628-9EAF-A2231C7365A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2696531-E4F8-4628-9EAF-A2231C7365A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2696531-E4F8-4628-9EAF-A2231C7365A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2696531-E4F8-4628-9EAF-A2231C7365A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

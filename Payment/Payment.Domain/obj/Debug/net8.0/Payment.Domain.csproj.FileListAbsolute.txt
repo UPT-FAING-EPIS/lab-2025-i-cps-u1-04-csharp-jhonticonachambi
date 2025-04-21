@@ -1,0 +1,11 @@
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\bin\Debug\net8.0\Payment.Domain.deps.json
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\bin\Debug\net8.0\Payment.Domain.dll
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\bin\Debug\net8.0\Payment.Domain.pdb
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.AssemblyInfoInputs.cache
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.AssemblyInfo.cs
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.dll
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\obj\Debug\net8.0\refint\Payment.Domain.dll
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.pdb
+C:\Users\jhont\OneDrive\Desktop\Payment\Payment.Domain\obj\Debug\net8.0\ref\Payment.Domain.dll
