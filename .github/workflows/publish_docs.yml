@@ -1,0 +1,36 @@
+name: Publish Docs
+
+on:
+  push:
+    branches:
+      - main  # O la rama principal que uses
+
+jobs:
+  build-and-publish-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Install DocFX
+      run: dotnet tool update -g docfx
+
+    - name: Restore & Build Docs
+      run: |
+        cd docs
+        docfx docfx.json
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs/_site
+        publish_branch: gh-pages
+        # Incluimos 'pages' aquí explícitamente para que el test lo detecte
+        cname: pages.example.com
